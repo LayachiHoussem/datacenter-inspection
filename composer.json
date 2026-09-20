@@ -1,0 +1,21 @@
+{
+    "name": "datacenter/inspection",
+    "description": "Datacenter Inspection & Maintenance Management System",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/config/constants.php",
+            "app/helpers/functions.php",
+            "app/helpers/auth.php",
+            "app/helpers/csrf.php",
+            "app/helpers/validation.php"
+        ]
+    },
+    "require": {
+        "php": ">=8.0"
+    }
+}

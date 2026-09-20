@@ -1,0 +1,11 @@
+{
+    "smtp_enabled": true,
+    "smtp_host": "10.10.20.20",
+    "smtp_port": 25,
+    "smtp_encryption": "tls",
+    "smtp_user": "admin@datacenter.local",
+    "smtp_pass": "123",
+    "from_email": "admin@datacenter.local",
+    "from_name": "Datacenter Inspection System",
+    "default_recipients": ""
+}

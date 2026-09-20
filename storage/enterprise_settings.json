@@ -1,0 +1,13 @@
+{
+    "name": "Datacenter",
+    "site": "Datacenter",
+    "website": "https://datacenter.local",
+    "logo_url": "/uploads/branding/logo_1789847183_91846dd8.png",
+    "logo_path": "public/uploads/branding/logo_1789847183_91846dd8.png",
+    "is_custom_logo": true,
+    "tagline": "Facilities Inspection & Maintenance Management",
+    "email": "admin@datacenter.local",
+    "phone": "+1 (555) 019-2834",
+    "address": "Building 4, Technology Park, Datacenter Way",
+    "updated_at": "2026-09-19 19:46:23"
+}

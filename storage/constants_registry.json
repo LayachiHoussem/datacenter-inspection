@@ -1,0 +1,157 @@
+{
+    "STATUS_PENDING": {
+        "value": "pending",
+        "type": "string",
+        "category": "Inspection Statuses",
+        "comment": "Inspection pending initiation",
+        "color": "#3b82f6",
+        "is_core": true
+    },
+    "STATUS_IN_PROGRESS": {
+        "value": "in_progress",
+        "type": "string",
+        "category": "Inspection Statuses",
+        "comment": "Inspection currently active",
+        "color": "#f6b100",
+        "is_core": true
+    },
+    "STATUS_COMPLETED": {
+        "value": "completed",
+        "type": "string",
+        "category": "Inspection Statuses",
+        "comment": "Inspection finalized and submitted",
+        "color": "#03c95a",
+        "is_core": true
+    },
+    "STATUS_CANCELLED": {
+        "value": "cancelled",
+        "type": "string",
+        "category": "Inspection Statuses",
+        "comment": "Inspection voided or cancelled",
+        "color": "#ef4444",
+        "is_core": true
+    },
+    "RESULT_PASS": {
+        "value": "pass",
+        "type": "string",
+        "category": "Checklist Results",
+        "comment": "Checklist item met compliant criteria",
+        "color": "#03c95a",
+        "is_core": true
+    },
+    "RESULT_FAIL": {
+        "value": "fail",
+        "type": "string",
+        "category": "Checklist Results",
+        "comment": "Checklist item failed inspection checks",
+        "color": "#ef4444",
+        "is_core": true
+    },
+    "RESULT_WARNING": {
+        "value": "warning",
+        "type": "string",
+        "category": "Checklist Results",
+        "comment": "Checklist item requires advisory attention",
+        "color": "#f6b100",
+        "is_core": true
+    },
+    "RESULT_NA": {
+        "value": "na",
+        "type": "string",
+        "category": "Checklist Results",
+        "comment": "Checklist item not applicable to equipment",
+        "color": "#64748b",
+        "is_core": true
+    },
+    "EQUIPMENT_ACTIVE": {
+        "value": "active",
+        "type": "string",
+        "category": "Equipment Statuses",
+        "comment": "Equipment in live production service",
+        "color": "#03c95a",
+        "is_core": true
+    },
+    "EQUIPMENT_MAINTENANCE": {
+        "value": "maintenance",
+        "type": "string",
+        "category": "Equipment Statuses",
+        "comment": "Equipment undergoing scheduled servicing",
+        "color": "#f6b100",
+        "is_core": true
+    },
+    "EQUIPMENT_DECOMMISSIONED": {
+        "value": "decommissioned",
+        "type": "string",
+        "category": "Equipment Statuses",
+        "comment": "Equipment retired from service",
+        "color": "#ef4444",
+        "is_core": true
+    },
+    "ROLE_ADMIN": {
+        "value": "admin",
+        "type": "string",
+        "category": "User Roles",
+        "comment": "Administrator role identifier",
+        "color": "#03c95a",
+        "is_core": true,
+        "permissions": {
+            "dashboard": "write",
+            "inspections": "write",
+            "reports": "write",
+            "equipment": "write",
+            "categories": "write",
+            "users": "write",
+            "settings": "write"
+        }
+    },
+    "ROLE_INSPECTOR": {
+        "value": "inspector",
+        "type": "string",
+        "category": "User Roles",
+        "comment": "Field inspector role identifier",
+        "color": "#3b82f6",
+        "is_core": true,
+        "updated_at": "2026-09-03 11:42:01",
+        "permissions": {
+            "dashboard": "write",
+            "maintenance": "write",
+            "inspections": "write",
+            "reports": "write"
+        }
+    },
+    "ROLE_MANAGER": {
+        "value": "manager",
+        "type": "string",
+        "category": "User Roles",
+        "comment": "Facility manager role identifier",
+        "color": "#f97316",
+        "is_core": true,
+        "permissions": {
+            "dashboard": "write",
+            "maintenance": "write",
+            "inspections": "write",
+            "reports": "write",
+            "equipment": "write",
+            "categories": "write"
+        }
+    },
+    "ROLE_VIEWER": {
+        "value": "viewer",
+        "type": "string",
+        "category": "User Roles",
+        "comment": "Just View only",
+        "color": "#f6b100",
+        "is_core": false,
+        "updated_at": "2026-09-05 15:33:37",
+        "permissions": {
+            "dashboard": "read",
+            "maintenance": "read",
+            "inspections": "read",
+            "reports": "read",
+            "equipment": "read",
+            "categories": "read",
+            "users": "read",
+            "settings": "read"
+        }
+    }
+}
